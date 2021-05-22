@@ -4,6 +4,7 @@ import wordcloud
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import PIL
 
 #USER INTERACTION
 
@@ -36,4 +37,5 @@ path = os.getcwd()
 font_path = os.path.join(path,"hb.ttf")
 mask_path = os.path.join(path,"romeo.jpg")
 
+mask_image = np.array(pillow)
 

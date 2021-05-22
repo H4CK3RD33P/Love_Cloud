@@ -1,0 +1,5 @@
+wordcloud
+pillow
+matplotlib
+numpy
+pyfiglet
